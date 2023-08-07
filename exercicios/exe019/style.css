@@ -1,0 +1,37 @@
+@charset "UTF-8";
+    /*
+    em HTML é id = em CSS é # ( só pode um elemento )
+    em HTML é class = em CSS é . ( pode vários elementos )
+    */
+
+body{
+    background-image: linear-gradient(to top, #444444, #5c5b5b, #7c7c7c);
+    background-attachment: fixed;
+}
+h1 {
+    font-size: 3m;
+    
+    color:rgb(255, 255, 255) ;
+}
+h1#principal {
+    text-align: center;
+    color: black;
+}
+.basico{
+    color: green;
+
+}
+.intermediario{
+    color: yellow;
+
+}
+
+.avancado{
+    color: red;
+
+}
+p {
+     font-weight: bold;
+    text-align: justify;
+    font-size: 0.9em;
+}

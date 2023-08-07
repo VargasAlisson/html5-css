@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to top, #023535, #015958 , #10807e );
+    background-attachment: fixed;
+    /* Medidas Absolutas
+    cm, mm, in, px, pt, pc
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em
+    */
+    font-size: 18px;
+    font-weight: bold;
+    /*lighter, normal, bold, bolder / numeraçao que vai de 100 a 900*/
+    
+    /* font-style -> font- height -> font-size -> font-fammily
+
+    font-fammily: 'work Sans', sans-serif;
+    font-size: bolder;
+    font- height: 3em;
+    font-style: italic
+    */
+
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #016e6d;
+    text-shadow: 1px 1px 1px  #015958;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
