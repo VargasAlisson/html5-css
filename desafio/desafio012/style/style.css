@@ -66,11 +66,11 @@ section.imagem > p {
     border-radius: 15px;
 }
 section#img01{
-    background-image: url('image/background001.jpg');
+    background-image: url('../image/background001.jpg');
     background-position: right center;
 }
 section#img02 {
-    background-image: url('image/background002.jpg');
+    background-image: url('../image/background002.jpg');
 }
 footer {
     background-color: black;
